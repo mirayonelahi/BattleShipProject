@@ -1,15 +1,19 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class BattleShip {
 
-    String[] shipLocation,shipLocation2,shipLocation3;
+    String[] shipLocation,shipLocation2;
+    String[] shipX1= new String[]{"x", "x", "x"},shipX2= new String[]{"x", "x", "x"};;
 
 
 
     ArrayList<String[]> myList = new ArrayList<String[]>();
+    ArrayList<String> testShip = new ArrayList<String>();
+
 
     public ArrayList<String[]> getMyList() {
         return myList;
@@ -35,4 +39,24 @@ public class BattleShip {
          myList.add(shipLocation2);
          setMyList(myList);
     }
+
+//    public void isSunk(String id) {
+//
+//
+//        for (String[] array: myList) {
+//            for (int i = 0; i <array.length ; i++) {
+//                if(array[i].equals(id)){
+//                   testShip.add(id);
+//                }
+//            }
+//            if(Arrays.equals(shipX1,array)){
+//                System.out.println("one ship sunk");
+//            }
+//
+//        }
+//
+//        System.out.println(testShip.toString());
+//
+//
+//    }
 }

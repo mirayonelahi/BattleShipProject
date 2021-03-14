@@ -1,0 +1,19 @@
+* :disabled {
+    -fx-opacity: 1;
+}
+
+.miss{
+-fx-background-color:   red;
+ -fx-background-image: url('/resources/miss.png');
+ -fx-background-repeat: no-repeat;
+ -fx-background-size: cover, auto;
+
+}
+
+.hit{
+-fx-background-color:   green;
+ -fx-background-image: url('/resources/ship.png');
+ -fx-background-repeat: no-repeat;
+ -fx-background-size: cover, auto;
+
+}
