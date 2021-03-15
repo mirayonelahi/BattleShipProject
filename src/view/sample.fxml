@@ -149,6 +149,9 @@
                 <Button id="89" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="8" />
                 <Button id="90" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="8" />
                 <Button id="59" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button id="1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" />
+            <Button id="2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" />
+            <Button id="101" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="10" />
             </children>
         </GridPane>
     </center>
