@@ -98,19 +98,9 @@ public class Controller {
 
         }
 
-//        for (String[] v :battleShip.getMyList()) {
-//            for (int i = 0; i <v.length ; i++) {
-//                if (Arrays.equals(v, test)){
-//                    lblMessage.setText("You sunk my boat");
-//                    test= new String[3];
-//                    shipSunk=shipSunk+1;
-//                    }
-//            }
-//
-//        }
-////        System.out.println(shipSunk);
+
         if(shipSunk==2){
-            lblMessage.setText("You sunk Battleship");
+            lblMessage.setText("You sunk my Battleship");
         }
 
     }

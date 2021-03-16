@@ -17,3 +17,12 @@
  -fx-background-size: cover, auto;
 
 }
+
+
+
+.board{
+-fx-background-color:   red;
+ -fx-background-image: url('/resources/miss.jpg');
+ -fx-background-repeat: no-repeat;
+ -fx-background-size: cover, auto;
+}
