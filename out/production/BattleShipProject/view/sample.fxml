@@ -9,61 +9,153 @@
 <?import javafx.scene.layout.RowConstraints?>
 
 <BorderPane id="bodybg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="568.0" styleClass="bodybg" stylesheets="@../resources/app.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
-   <center>
-      <GridPane gridLinesVisible="true" prefHeight="409.0" prefWidth="601.0" BorderPane.alignment="CENTER">
-        <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-         <effect>
-            <Glow level="0.35" />
-         </effect>
-         <children>
+    <center>
+        <GridPane gridLinesVisible="true" onMouseClicked="#onBtnClicked" prefHeight="409.0" prefWidth="601.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <effect>
+                <Glow level="0.35" />
+            </effect>
+            <children>
+                <Button id="106" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                <Button id="2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                <Button id="3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" />
+                <Button id="14" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <Button id="4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" />
+                <Button id="12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Button id="11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="1" />
+                <Button id="13" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Button id="5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" />
+                <Button id="15" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                <Button id="6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" />
+                <Button id="16" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <Button id="7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" />
+                <Button id="17" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                <Button id="8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" />
+                <Button id="9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" />
+                <Button id="18" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                <Button id="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" />
+                <Button id="19" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                <Button id="20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                <Button id="102" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                <Button id="103" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                <Button id="104" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                <Button id="105" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                <Button id="106" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                <Button id="107" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                <Button id="108" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                <Button id="109" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                <Button id="110" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                <Button id="91" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="9" />
+                <Button id="92" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                <Button id="93" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                <Button id="94" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                <Button id="95" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                <Button id="96" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                <Button id="97" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                <Button id="98" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                <Button id="99" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                <Button id="100" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                <Button id="81" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="8" />
+                <Button id="71" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="7" />
+                <Button id="61" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="6" />
+                <Button id="51" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="5" />
+                <Button id="41" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="4" />
+                <Button id="31" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="3" />
+                <Button id="21" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="2" />
+                <Button id="22" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Button id="32" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Button id="42" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Button id="52" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Button id="62" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <Button id="72" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <Button id="82" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                <Button id="23" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Button id="24" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <Button id="33" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <Button id="34" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <Button id="43" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <Button id="44" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <Button id="25" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                <Button id="35" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                <Button id="45" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <Button id="53" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <Button id="54" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                <Button id="55" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                <Button id="63" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <Button id="64" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <Button id="73" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                <Button id="74" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                <Button id="83" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                <Button id="84" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                <Button id="65" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                <Button id="75" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                <Button id="85" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                <Button id="26" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                <Button id="36" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <Button id="46" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <Button id="27" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                <Button id="28" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                <Button id="37" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                <Button id="47" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                <Button id="56" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                <Button id="57" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                <Button id="29" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                <Button id="38" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <Button id="48" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <Button id="58" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                <Button id="39" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                <Button id="30" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                <Button id="40" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                <Button id="49" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                <Button id="50" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                <Button id="60" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                <Button id="66" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                <Button id="67" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                <Button id="68" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                <Button id="69" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                <Button id="70" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                <Button id="76" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                <Button id="77" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                <Button id="78" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                <Button id="79" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                <Button id="80" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                <Button id="86" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                <Button id="87" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                <Button id="88" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                <Button id="89" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                <Button id="90" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                <Button id="59" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="5" />
             <Button id="1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" />
             <Button id="2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" />
-            <Button id="3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" />
-            <Button id="14" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button id="4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="3" />
-            <Button id="12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button id="11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="1" />
-            <Button id="13" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button id="5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" />
-            <Button id="15" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button id="6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" />
-            <Button id="16" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-            <Button id="7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" />
-            <Button id="17" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-            <Button id="8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" />
-            <Button id="9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" />
-            <Button id="18" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-            <Button id="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" />
-            <Button id="19" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-            <Button id="20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.columnIndex="9" GridPane.rowIndex="1" />
-         </children>
-      </GridPane>
-   </center>
-   <top>
-      <Label fx:id="lblMessage" alignment="CENTER" prefHeight="38.0" prefWidth="345.0" BorderPane.alignment="CENTER" />
-   </top>
+            <Button id="101" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#onBtnClicked" GridPane.rowIndex="10" />
+            </children>
+        </GridPane>
+    </center>
+    <top>
+        <Label fx:id="lblMessage" alignment="CENTER" prefHeight="38.0" prefWidth="345.0" BorderPane.alignment="CENTER" />
+    </top>
 </BorderPane>
