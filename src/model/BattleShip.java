@@ -6,13 +6,12 @@ import java.util.List;
 
 public class BattleShip {
 
-    String[] shipLocation,shipLocation2;
+    String[] shipLocation = new String[3],shipLocation2;
     String[] shipX1= new String[]{"x", "x", "x"},shipX2= new String[]{"x", "x", "x"};;
 
 
 
     ArrayList<String[]> myList = new ArrayList<String[]>();
-    ArrayList<String> testShip = new ArrayList<String>();
 
 
     public ArrayList<String[]> getMyList() {
@@ -32,6 +31,13 @@ public class BattleShip {
     }
 
     public void generateShip() {
+//        int random=(int)(Math.random() * (108 - 1) + 1);
+//        for (int i = 0; i <3 ; i++) {
+//            shipLocation[i]=String.valueOf(random);
+//            System.out.println(random);
+//            random=random+1;
+//
+//        }
          shipLocation = new String[]{"1", "2", "3"};
         shipLocation2 = new String[]{"15","16","17"};
 //        shipLocation3 = new String[]{"1", "2", "3"};
@@ -40,23 +46,4 @@ public class BattleShip {
          setMyList(myList);
     }
 
-//    public void isSunk(String id) {
-//
-//
-//        for (String[] array: myList) {
-//            for (int i = 0; i <array.length ; i++) {
-//                if(array[i].equals(id)){
-//                   testShip.add(id);
-//                }
-//            }
-//            if(Arrays.equals(shipX1,array)){
-//                System.out.println("one ship sunk");
-//            }
-//
-//        }
-//
-//        System.out.println(testShip.toString());
-//
-//
-//    }
 }

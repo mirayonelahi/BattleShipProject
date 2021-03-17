@@ -7,8 +7,9 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane id="bodybg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="568.0" styleClass="bodybg" stylesheets="@../resources/app.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="568.0" styleClass="bodybg" stylesheets="@../resources/app.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
     <center>
         <GridPane gridLinesVisible="true" onMouseClicked="#onBtnClicked" prefHeight="409.0" prefWidth="601.0" BorderPane.alignment="CENTER">
             <columnConstraints>
@@ -156,6 +157,9 @@
         </GridPane>
     </center>
     <top>
-        <Label fx:id="lblMessage" alignment="CENTER" prefHeight="38.0" prefWidth="345.0" BorderPane.alignment="CENTER" />
+        <Label fx:id="lblMessage" alignment="CENTER" prefHeight="38.0" prefWidth="572.0" text="Start Firing By Clicking on Board" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font></Label>
     </top>
 </BorderPane>
