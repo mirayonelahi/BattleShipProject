@@ -6,7 +6,7 @@ import java.util.List;
 
 public class BattleShip {
 
-    String[] shipLocation = new String[3], shipLocation2 = new String[3];
+    String[] shipLocation = new String[3], shipLocation2 = new String[3], shipLocation3 = new String[3];
 
 
     ArrayList<String[]> myList = new ArrayList<String[]>();
@@ -29,19 +29,19 @@ public class BattleShip {
     }
 
     public void generateShip() {
-        int random = (int) (Math.random() * (108 - 1) + 1);
-        int random2 = (int) (Math.random() * (108 - 1) + 1);
-        if (random == random2 || random + 1 == random2 || random + 2 == random2) {
+        int randomShip1 = (int) (Math.random() * (108 - 1) + 1);
+        int randomShip2 = (int) (Math.random() * (108 - 1) + 1);
+        if (randomShip1 == randomShip2 || randomShip1 + 1 == randomShip2 || randomShip1 + 2 == randomShip2) {
             generateShip();
         }
         for (int i = 0; i < 3; i++) {
-            shipLocation[i] = String.valueOf(random);
-            shipLocation2[i] = String.valueOf(random2);
-            System.out.println(random);
+            shipLocation[i] = String.valueOf(randomShip1);
+            shipLocation2[i] = String.valueOf(randomShip2);
+            System.out.println(randomShip1);
             System.out.println("---");
-            System.out.println(random2);
-            random = random + 1;
-            random2 = random2 + 1;
+            System.out.println(randomShip2);
+            randomShip1 = randomShip1 + 1;
+            randomShip2 = randomShip2 + 10;
 
         }
         myList.add(shipLocation);
