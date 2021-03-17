@@ -162,4 +162,11 @@
             <Font name="Arial Black" size="25.0" />
          </font></Label>
     </top>
+   <bottom>
+      <Label fx:id="lblChances" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="588.0" text="20 Chances Remaining" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="22.0" />
+         </font>
+      </Label>
+   </bottom>
 </BorderPane>

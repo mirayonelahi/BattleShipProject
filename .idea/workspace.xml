@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/resources/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/resources/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/resources/board.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/resources/board.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/resources/miss.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/resources/miss.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/resources/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/resources/ship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/view/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/view/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BattleShipProject/model/BattleShip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BattleShipProject/model/BattleShip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BattleShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/sample.fxml" afterDir="false" />
@@ -274,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615935413933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code refactored and cleared">
+      <created>1615940439418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615940439418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -327,7 +329,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="gameboard added" />
     <MESSAGE value="Some design added in board" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some design added in board" />
+    <MESSAGE value="Code refactored and cleared" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code refactored and cleared" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

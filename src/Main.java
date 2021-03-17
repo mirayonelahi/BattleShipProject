@@ -16,8 +16,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 900, 800));
         primaryStage.show();
 
-        BattleShip battleShip = new BattleShip();
-        battleShip.generateShip();
+
 
 
     }
