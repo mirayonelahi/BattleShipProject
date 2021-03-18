@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/model/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BattleShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/board.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/board.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/miss.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/miss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/ship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616024559164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Generate ship vertically added">
+      <created>1616025071077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616025071077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -333,7 +346,8 @@
     <MESSAGE value="Some design added in board" />
     <MESSAGE value="Code refactored and cleared" />
     <MESSAGE value="Documentation file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Documentation file added" />
+    <MESSAGE value="Generate ship vertically added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generate ship vertically added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

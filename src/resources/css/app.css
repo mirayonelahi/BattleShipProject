@@ -4,7 +4,7 @@
 
 .miss{
 -fx-background-color:   red;
- -fx-background-image: url('/resources/miss.png');
+ -fx-background-image: url('/resources/images/miss.png');
  -fx-background-repeat: no-repeat;
  -fx-background-size: cover, auto;
 
@@ -12,7 +12,7 @@
 
 .hit{
 -fx-background-color:   green;
- -fx-background-image: url('/resources/ship.png');
+ -fx-background-image: url('/resources/images/ship.png');
  -fx-background-repeat: no-repeat;
  -fx-background-size: cover, auto;
 
@@ -22,7 +22,6 @@
 
 .board{
 -fx-background-color:   red;
- -fx-background-image: url('/resources/miss.jpg');
  -fx-background-repeat: no-repeat;
  -fx-background-size: cover, auto;
 }

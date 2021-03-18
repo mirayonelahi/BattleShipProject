@@ -19,7 +19,7 @@ public class Controller {
     int shipSunk=0;
     ArrayList<String> testShip = new ArrayList<String>();
     boolean firstTime=true,secondTime=true;
-    boolean flag=true;
+    boolean firstTimeGenerate=true;
     String[] shipLocation = new String[3];
     String[] shipLocation2 = new String[3];
     ArrayList<String[]> myList = new ArrayList<String[]>();
@@ -32,8 +32,8 @@ public class Controller {
         lblMessage.setText("Miss");
         chancesRemaining--;
 
-        if(flag) {
-            flag=false;
+        if(firstTimeGenerate) {
+            firstTimeGenerate=false;
             battleShip.generateShip();
         }
 
