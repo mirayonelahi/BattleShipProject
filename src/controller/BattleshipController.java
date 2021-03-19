@@ -11,7 +11,7 @@ import model.BattleShip;
 
 import java.util.*;
 
-public class Controller {
+public class BattleshipController {
 
     public Label lblMessage;
     public Label lblChances;
