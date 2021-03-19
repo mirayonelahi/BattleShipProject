@@ -17,7 +17,6 @@ public class BattleShip {
 
 //all the ships  will be saved in a arraylist called myList
     ArrayList<String[]> myList = new ArrayList<String[]>();
-
     /**
      *
      * @return  all the ships in an arraylist
@@ -50,7 +49,7 @@ public class BattleShip {
 
         //make sure both 2 random numbers are not same and those are not collided in horizontal and vertical
         //if happens we use a reccursive method to handle that
-        if (randomShip1 == randomShip2 || randomShip1 + 1 == randomShip2 || randomShip1 + 2 == randomShip2) {
+        if (randomShip1 == randomShip2 || randomShip1 + 1 == randomShip2 || randomShip1 + 2 == randomShip2 ||randomShip2>=91) {
             generateShip();
         }
 
@@ -63,6 +62,7 @@ public class BattleShip {
             System.out.println("---");
             System.out.println(randomShip2);
             randomShip1 = randomShip1 + 1;
+
             randomShip2 = randomShip2 + 10;
 
         }
