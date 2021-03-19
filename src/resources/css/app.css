@@ -1,27 +1,27 @@
 * :disabled {
-    -fx-opacity: 1;
+    -fx-opacity : 1;
 }
 
-.miss{
--fx-background-color:   red;
- -fx-background-image: url('/resources/images/miss.png');
- -fx-background-repeat: no-repeat;
- -fx-background-size: cover, auto;
+.miss {
+    -fx-background-color    : '#ff5050';
+    -fx-background-image    : url('/resources/images/miss.png');
+    -fx-background-repeat   : no-repeat;
+    -fx-background-size     : contain, auto;
+    -fx-background-position : center;
+}
+
+.hit {
+    -fx-background-color    : green;
+    -fx-background-image    : url('/resources/images/ship.png');
+    -fx-background-repeat   : no-repeat;
+    -fx-background-size     : contain, auto;
+    -fx-background-position : center;
 
 }
 
-.hit{
--fx-background-color:   green;
- -fx-background-image: url('/resources/images/ship.png');
- -fx-background-repeat: no-repeat;
- -fx-background-size: cover, auto;
 
-}
-
-
-
-.board{
--fx-background-color:   red;
- -fx-background-repeat: no-repeat;
- -fx-background-size: cover, auto;
+.board {
+    -fx-background-color  : red;
+    -fx-background-repeat : no-repeat;
+    -fx-background-size   : cover, auto;
 }
