@@ -1,3 +1,14 @@
+<h3>Group 3 Members<h3>
+
+<b>Mir Ayon Elahi 300314031</b>
+
+<b>Hardeep Singh 300317281</b>
+
+<b>Bhavdeep Singh 300323402</b>
+
+<b>Mir Imran Elahi 300314007</b>
+
+
 # BattleShipProject
 This is a battleship game using java and javafx.
 
